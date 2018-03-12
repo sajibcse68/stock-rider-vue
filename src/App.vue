@@ -25,6 +25,9 @@
               <a class="dropdown-item" href="#" @click="loadData">Load Data</a>
             </div>
           </li>
+
+          <li id="funds" class="nav-item" style="color: green">Funds: {{ funds | currency }}</li>
+
         </ul>
       </div>
     </nav>
